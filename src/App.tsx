@@ -124,6 +124,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className='title'>USER MANAGEMENT</h1>
       <Table
         rowSelection={{
           ...rowSelection,
