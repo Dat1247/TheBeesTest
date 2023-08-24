@@ -9,10 +9,8 @@ import {
 import type { ColumnsType } from 'antd/es/table';
 import { TUser } from './interfaces';
 
-
 function App() {
   const [data, setData] = useState<TUser[]>([]);
-  
 
   useEffect(() => {
     let arrUser: TUser[] = []
